@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employees status="ok">
+<record no = "100">
+<name> John </name>
+<position> Clerk </position>
+</record>
+<record no = "102">
+<name> Sam </name>
+<position> Sales Manager </position>
+</record>
+<record no = "103">
+<name> Jeet </name>
+<position> Sales Executive </position>
+</record>
+</employees>

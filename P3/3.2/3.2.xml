@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employees status="ok">
+    <record man_no="101">
+        <name>Joe Paul</name>
+        <position>CEO</position>
+    </record>
+    <record man_no="102">
+        <name>Tasha Smith</name>
+        <position>Finance Manager</position>
+    </record>
+</employees>

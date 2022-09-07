@@ -1,0 +1,26 @@
+<GSFC>
+    <student department="CSE">
+        <ID>02CE31</ID>
+        <name>Pooja Shah</name>
+        <address>Manjalpur</address>
+        <semester>3</semester>
+    </student>
+    <student department="MCA">
+        <ID>03MC44</ID>
+        <name>Rajesh Patel</name>
+        <address>Gorva</address>
+        <semester>4</semester>
+    </student>
+    <student department="Civil">
+        <ID>04CL22</ID>
+        <name>Jyotir Rana</name>
+        <address>Alkapuri</address>
+        <semester>2</semester>
+    </student>
+        <student department="EC">
+        <ID>02EC50</ID>
+        <name>Geeta Luhana</name>
+        <address>Bhayali</address>
+        <semester>1</semester>
+    </student>
+</GSFC>

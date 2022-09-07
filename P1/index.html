@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+
+    <!-- link css file  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+
+    <!-- /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/    navbar     /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/     -->
+
+    <nav>
+        <div id="navbar">
+            <div class="nav-tex">GSFC University </div>
+        </div>
+    </nav>
+
+    <!-- /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/   details-sec section   /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/     -->
+
+    <section class="details-sec" id="details-sec">
+
+
+ 
+        <form onsubmit="takevalue()" method="get" >
+		
+		<h2 class=" title">Admission Form</h2>
+
+            <div class="fields">
+                <div class="field">
+                    <input type="text" id="fname" placeholder="First Name" required>
+                </div>
+                <div class="field">
+                    <input type="text" id="lname" placeholder="Last Name" required>
+                </div>
+            </div>
+
+            <div class="field" style="width: 94%;">
+                <input type="email" id="email" placeholder="Email " required>
+            </div>
+			
+			 <div class="field" style="width: 94%;">
+            <input type="number" id="pno" placeholder="Phone number" minlength="10" required>
+          </div>
+		  
+	
+          
+
+          <div class="field">
+            <select id="branch">
+              <option value="not sel"> Select Your Branch </option>
+              <option value="111"> </option>
+             
+              <option value="Chemical Engineering">Chemical Engineering</option>
+              <option value="Mechanical Engineering">Mechanical Engineering</option>
+              <option value="Computer Science and Engineering">Computer Science and Engineering </option>
+              
+
+
+            </select>
+          </div>
+          
+      
+<!-- 		  
+<h2 class=" title" style="margin-top: 20px;">Creat your Account</h2>
+<div class="field" style="width: 94%;">
+                    <input type="text" id="uname" placeholder="User Name" required>
+                </div>
+            <div class="fields">
+                <div class="field">
+                    <input type="password" placeholder="Enter Password" id="password" required>
+                </div>
+                <div class="field">
+                    <input type="password" placeholder="Re-Enter Password" id="re_password" required>
+                </div>
+            </div> -->
+            <div class="button-area">
+                <button type="submit" id="sub">Submit</button>
+               
+              
+                <button type="back" id="reset">Reset</button>
+                <a href="../index.php" style="margin-top: 50px; margin-left: 290px;">Back</a>
+
+            </div>
+        </form>
+
+    </section>
+
+
+
+    <!-- link js file  -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
