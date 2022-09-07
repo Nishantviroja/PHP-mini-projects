@@ -36,7 +36,7 @@
     </nav>
 
 <form class="col-4 mt-5" style="margin:auto">
-<label class="h2 my-3">Gross Salary Calculator</label>
+<label class="h2 my-3">Student information</label>
 
 <hr>
 <select class="form-select bg-dark text-light" name="users" onchange="showUser(this.value)">
