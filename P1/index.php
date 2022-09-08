@@ -36,10 +36,10 @@
 
             <div class="fields">
                 <div class="field">
-                    <input type="text" id="fname" placeholder="First Name" required>
+                    <input type="text" id="fname" pattern="[A-Z a-z]" placeholder="First Name" required>
                 </div>
                 <div class="field">
-                    <input type="text" id="lname" placeholder="Last Name" required>
+                    <input type="text" id="lname" pattern="[A-Z a-z]" placeholder="Last Name" required>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@
             </div>
 			
 			 <div class="field" style="width: 94%;">
-            <input type="number" id="pno" placeholder="Phone number" minlength="10" required>
+            <input type="number" id="pno" placeholder="Phone number" pattern="[0-9]{10}" required>
           </div>
 		  
 	
@@ -69,19 +69,7 @@
           </div>
           
       
-<!-- 		  
-<h2 class=" title" style="margin-top: 20px;">Creat your Account</h2>
-<div class="field" style="width: 94%;">
-                    <input type="text" id="uname" placeholder="User Name" required>
-                </div>
-            <div class="fields">
-                <div class="field">
-                    <input type="password" placeholder="Enter Password" id="password" required>
-                </div>
-                <div class="field">
-                    <input type="password" placeholder="Re-Enter Password" id="re_password" required>
-                </div>
-            </div> -->
+
             <div class="button-area">
                 <button type="submit" id="sub">Submit</button>
                

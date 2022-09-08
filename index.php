@@ -15,7 +15,7 @@
     <!-- Javascript link-->
     <script src="https://kit.fontawesome.com/89a7164f38.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    <title>Student Form</title>
+    <title>20BT04052 - Nishant Viroja</title>
 </head>
 
 <body class="bg-dark text-light">
@@ -47,7 +47,7 @@
                 <th scope="row"></th>
                 <th>1.0</th>
                 <td>Creating and Validating the form using PHP</td>
-                <td><a href="P1/index.html" type="button" class="btn btn-success px-4 font-weight-bold"> View </a></td>
+                <td><a href="P1/index.php" type="button" class="btn btn-success px-4 font-weight-bold"> View </a></td>
                 <td><a href="https://github.com/Nishantviroja/PHP-mini-projects/tree/master/P1" type="button" class="btn btn-warning px-4 font-weight-bold">Code</a></td>
                
               

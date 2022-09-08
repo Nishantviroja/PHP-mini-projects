@@ -83,27 +83,27 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <form class="container w-50  mt-5" action="marks.php" method="post" name="form1" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="subject_1">Enter Marks For AWT</label>
-                <input type="text" name="awt_marks" class="form-control" id="awt_marks" aria-describedby="emailHelp" Required>
+                <input type="number" min="0" max="100" name="awt_marks" class="form-control" id="awt_marks" aria-describedby="emailHelp" Required>
                 <p id="#" class="error" style="color: red;"><?php echo $error['sub_1']; ?></p>
             </div>
             <div class="form-group">
                 <label for="subject_2">Enter Marks For DAA</label>
-                <input type="text" name="daa_marks" class="form-control" id="daa_marks" aria-describedby="emailHelp" Required>
+                <input type="number" min="0" max="100" name="daa_marks" class="form-control" id="daa_marks" aria-describedby="emailHelp" Required>
                 <p id="#" class="error" style="color: red;"><?php echo $error['sub_2']; ?></p>
             </div>
             <div class="form-group">
                 <label for="subject_3">Enter Marks For DSE</label>
-                <input type="text" name="dse_marks" class="form-control" id="dse_marks" aria-describedby="emailHelp" Required>
+                <input type="number" min="0" max="100" name="dse_marks" class="form-control" id="dse_marks" aria-describedby="emailHelp" Required>
                 <p id="#" class="error" style="color: red;"><?php echo $error['sub_3']; ?></p>
             </div>
             <div class="form-group">
                 <label for="subject_4">Enter Marks For IC</label>
-                <input type="text" name="ic_marks" class="form-control" id="ic_marks" aria-describedby="emailHelp" Required>
+                <input type="number" min="0" max="100" name="ic_marks" class="form-control" id="ic_marks" aria-describedby="emailHelp" Required>
                 <p id="#" class="error" style="color: red;"><?php echo $error['sub_4']; ?></p>
             </div>
             <div class="form-group">
                 <label for="subject_5">Enter Marks For SE</label>
-                <input type="text" name="se_marks" class="form-control" id="se_marks" aria-describedby="emailHelp" Required>
+                <input type="number" min="0" max="100" name="se_marks" class="form-control" id="se_marks" aria-describedby="emailHelp" Required>
                 <p id="#" class="error" style="color: red;"><?php echo $error['sub_5']; ?></p>
             </div>
 
