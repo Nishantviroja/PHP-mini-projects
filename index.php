@@ -105,6 +105,12 @@ browser using simple XML.</td>
                 <td><a href="P3/3.5/index.php" type="button" class="btn btn-success px-4 font-weight-bold"> View </a></td>
                 <td><a href="https://github.com/Nishantviroja/PHP-mini-projects/tree/master/P3/3.5" type="button" class="btn btn-warning px-4 font-weight-bold">Code</a></td>
               </tr>
+              <tr>
+                <th scope="row"></th>
+                <th>4</th><td>Write a PHP program for Voting System</td>
+                <td><a href="P4/index.php" type="button" class="btn btn-success px-4 font-weight-bold"> View </a></td>
+                <td><a href="https://github.com/Nishantviroja/PHP-mini-projects/tree/master/P3/3.5" type="button" class="btn btn-warning px-4 font-weight-bold">Code</a></td>
+              </tr>
 
             </tbody>
           </table>
